@@ -1,4 +1,5 @@
 #include<iostream>
+#include <algorithm>
 using namespace std;
 int main(){
     int arr1[4] = {2, 4, 7, 10};
@@ -16,12 +17,5 @@ int main(){
         }
         left--;
         right++;
-    }
-    for(int i = 0;i<n;i++){
-        cout << arr1[i]<<" ";
-    }
-    cout << endl;
-    for(int i = 0;i<n;i++){
-        cout << arr2[i]<<" ";
     }
 }
